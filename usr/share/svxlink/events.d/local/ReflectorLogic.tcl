@@ -350,6 +350,7 @@ proc talker_stop {tg callsign} {
         DB0KUH {set rx_location "A_Kuhberg"}
 	DB0CHE {set rx_location "A_Chemnitz"}
 	DB0ABL {set rx_location "A_AltenburgerLand"}
+	DM0ASH {set rx_location "A_Aschberg"}
     }
 
 	if {[string index $callsign 2] == "0"} {
